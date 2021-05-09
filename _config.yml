@@ -13,7 +13,7 @@ description: "Behavior Change Strategist & Communications Specialist"
 
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl: 
+baseurl:
 # baseurl: https://beingeorge.com/lancer-jekyll
 
 navigation:

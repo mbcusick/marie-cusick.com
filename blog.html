@@ -8,58 +8,58 @@ blogUrl: someyting
 {% include nav.html %}
 
 <section id="blog-page" class="module">
-	<div class="container">
-		<div class="row">
+  <div class="container">
+    <div class="row">
 
-			<div class="module-header">
-				<h2 class="module-title"> Blog </h2>
-				<div class="module-line"></div>
-			</div>
+      <div class="module-header">
+        <h2 class="module-title"> Blog </h2>
+        <div class="module-line"></div>
+      </div>
 
-		</div><!-- .row -->
+    </div><!-- .row -->
 
-		<!-- Blog Filter start-->
+    <!-- Blog Filter start-->
 
-		<div class="row">
+    <div class="row">
 
-			<div class="col-sm-12">
+      <div class="col-sm-12">
 
-				<ul id="filter">
-					<li class="active" data-group="all">All</li>
-					{% assign categories = site.posts | map: 'category' | uniq %}
-						{% for category in categories %}
-						<li data-group="{{ category }}">{{ category }}</li>
-					{% endfor %}
-				</ul>
+        <ul id="filter">
+          <li class="active" data-group="all">All</li>
+          {% assign categories = site.posts | map: 'category' | uniq %}
+          {% for category in categories %}
+          <li data-group="{{ category }}">{{ category }}</li>
+          {% endfor %}
+        </ul>
 
-			</div>
+      </div>
 
-		</div><!-- .row -->
+    </div><!-- .row -->
 
-		<!-- Blog Filter end -->
+    <!-- Blog Filter end -->
 
-		<ul class="list-items-container blog-wrapper">
+    <ul class="list-items-container blog-wrapper">
 
-			{% for post in site.posts %}
+      {% for post in site.posts %}
 
-			<li class="list-item" data-groups="all {{ post.category }}">
-				<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
-					<div class="blogList-img">
-						<img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
-						<span>{{ post.category }}</span>
-					</div>
-					<div class="blogList-desc">
-						<h3>{{ post.title }}</h3>
-						<div>{{ post.description }}</div>
-					</div>
-				</a>
-			</li>
+      <li class="list-item" data-groups="all {{ post.category }}">
+        <a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
+          <div class="blogList-img">
+            <img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
+            <span>{{ post.category }}</span>
+          </div>
+          <div class="blogList-desc">
+            <h3>{{ post.title }}</h3>
+            <div>{{ post.description }}</div>
+          </div>
+        </a>
+      </li>
 
-			{% endfor %}
+      {% endfor %}
 
 
-		</ul><!-- .projects-container -->
-	</div><!-- .contaier -->
+    </ul><!-- .projects-container -->
+  </div><!-- .contaier -->
 
 </section>
 
