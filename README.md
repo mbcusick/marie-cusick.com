@@ -2,37 +2,49 @@
 
 Note: Edit all files using Github interface.
 
+
 ### The `_config.yml` file
 
 The main things you might need to change here are:
 
 `title: Marie B Cusick` – change this to your website's title
+
 `description: "Behavior Change Strategist & Communications Specialist"` – change this to your website's description
+
 `url: "https://marie-cusick.com"` - change this to your website's domain
+
 `author_name: "Marie B Cusick"` - Author information at the bottom of the post
 
 You can also add/remove social links at the end of the file.
 
+
 ### Images
 
 Inside the `/assets/images/` folder you'll find a few images included with the theme. Add here all images you want to link/include/use in your site.
+
 
 ### The home page – `/index.html`
 
 This is your website home page. You can edit some details in the Front Matter at the top of the page:
 
 `bio` – Bio information divided in paragraphs
+
 `services` - Services information divided in items. Each item has an icon, a title and a description
+
 `work`: Here you have a list of categories that they will be used by filter UI. You also have a list od items, each one describes a specific work and has a category, an image, an image description (for accesibility), a title and a description.
+
 `hireMe` - Hiring section with some basic info.
+
 
 ### The blog page – `/blog/index.html`
 
 This is the blog listing page, which shows all your blog posts. You can edit the same things as on the home page to customise it for your website.
 
+
 ### Adding a post
 
 If you want to add a blog post, create a Markdown file inside `_posts`. In the next chapter you can see an example blog post content. Once you save the file, the blog post will be public for everyone on your site.
+
 
 ### Blog post example
 
