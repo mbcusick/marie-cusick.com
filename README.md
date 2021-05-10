@@ -11,7 +11,7 @@ The main things you might need to change here are:
 
 `description: "Behavior Change Strategist & Communications Specialist"` – change this to your website's description
 
-`keywords`: "" - keywords tag for SEO
+`keywords`: "" - keywords tag for SEO (separated by comma)
 
 `url: "https://marie-cusick.com"` - change this to your website's domain
 

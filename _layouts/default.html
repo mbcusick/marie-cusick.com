@@ -16,16 +16,16 @@
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="{{ site.url }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
-    <meta property="og:description" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{{ site.url }}/assets/images/{% if page.banner_image %}{{ page.banner_image }}{% else %}{{ site.social_image }}{% endif %}">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="{{ site.url }}">
     <meta property="twitter:url" content="{{ site.url }}">
-    <meta name="twitter:title" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{{ site.url }}/assets/images/{% if page.banner_image %}{{ page.banner_image }}{% else %}{{ site.social_image }}{% endif %}">
 
     <!-- CSS -->
