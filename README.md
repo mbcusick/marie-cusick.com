@@ -11,7 +11,11 @@ The main things you might need to change here are:
 
 `description: "Behavior Change Strategist & Communications Specialist"` – change this to your website's description
 
+`keywords`: "" - keywords tag for SEO
+
 `url: "https://marie-cusick.com"` - change this to your website's domain
+
+`social_image: "about.jpg"` - The image that the site shows when its shared on social networks.
 
 `author_name: "Marie B Cusick"` - Author information at the bottom of the post
 

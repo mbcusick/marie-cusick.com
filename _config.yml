@@ -11,6 +11,9 @@ title: "Marie B Cusick"
 # A description of your site for social meta tag, search engines, and feed.xml
 description: "Behavior Change Strategist & Communications Specialist"
 
+# Keywords tag for SEO
+keywords: ""
+
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl:
@@ -35,6 +38,9 @@ sass:
 
 # The base hostname & protocol of your site for where absolute urls are needed
 url: "https://marie-cusick.com"
+
+# Social image
+social_image: "about.jpg"
 
 # The shortname for your Disqus site to enable comments.
 disqus:
