@@ -107,7 +107,26 @@ Let's talk!:
   {% include nav.html %}
 
   <div class="intro">
+
     <h1>I am {{ site.title }}</h1>
+    <div class="slinks">
+      {% if site.facebook_username %}
+      <a href="https://www.facebook.com/{{ site.facebook_username }}" class="wow fadeInUp"><i class="fab fa-facebook-square fa-2x"></i></a>
+      {% endif %}
+      {% if site.twitter_username %}
+      <a href="https://twitter.com/{{ site.twitter_username }}" class="wow fadeInUp" data-wow-delay=".1s"><i class="fab fa-twitter-square fa-2x"></i></a>
+      {% endif %}
+      {% if site.googleplus_username %}
+      <a href="https://plus.google.com/{{ site.googleplus_username }}" class="wow fadeInUp" data-wow-delay=".2s"><i class="fab fa-google-plus-square fa-2x"></i></a>
+      {% endif %}
+      {% if site.linkedin_username %}
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="wow fadeInUp" data-wow-delay=".3s"><i class="fab fa-linkedin fa-2x"></i></a>
+      {% endif %}
+      {% if site.pinterest_username %}
+      <a href="http://www.pinterest.com/{{ site.pinterest_username }}" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-pinterest-square fa-2x"></i></a>
+      {% endif %}
+    </div>
+
   </div>
 
   <div class="mouse-icon">
@@ -358,7 +377,7 @@ Let's talk!:
 
 <!-- Hire start-->
 
-<div class="module module-gray text-center">
+<div id="contact" class="module module-gray text-center">
 
   <div class="module-header wow fadeInUp">
     <h2 class="module-title">{{ page.hireMe.message }}</h2>
