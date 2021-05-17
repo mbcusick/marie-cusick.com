@@ -1296,12 +1296,12 @@ Need to override the 3.3 new styles for modern browsers & apply opacity
      }
 
      .single-testimonials p {
-       font-size: 13px;
+       font-size: 16px;
      }
 
      .single-testimonials span {
        font-weight: 700;
-       font-size: 12px;
+       font-size: 16px;
      }
 
      .owl-theme .owl-controls {
