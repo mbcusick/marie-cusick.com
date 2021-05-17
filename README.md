@@ -39,6 +39,23 @@ This is your website home page. You can edit some details in the Front Matter at
 
 `hireMe` - Hiring section with some basic info.
 
+Additional notes:
+
+* If you want to change hero image, just replace `home.jpg` image.
+* If you want to change the text on the hero image, go to `_config.yml` file and edit `title` and `description` values.
+* Edit social networks usernames at the end of the `_config.yml` for adding more social network links (only supports Twitter, Facebook, Instagram, Google Plus, Pinterest, Linkedin and Instagram).
+* For adding/editing portfolio items, go to `works > items` section on Front Matter `index.html`. Each item is described as:
+
+```
+- category: europe/uk
+  image: fairphone-featured.jpg
+  imageDescription: "Work example description for impaired vision people"
+  title: "Fairphone"
+  description: "Fairphone builds a deeper understanding between people and their products, driving conversations about what 'fair' really means. I support on-demand client copywriting and editing requests for a range of content driven pieces to help with product positioning and raising consumer awareness."
+```
+
+Here you have all fields necessary to describe a portfolio item. It only supports one category per item. Note indenting is a mandatory (I use two spaces).
+
 
 ### The blog page – `/blog/index.html`
 

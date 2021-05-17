@@ -2,7 +2,7 @@
 layout: default
 
 bio:
-  - Thanks for stopping by. I am a skilled content creator, storyteller and professional nudger, passionate about behavior change. I work with change-makers and impact-driven organizations to tell your unique stories that enable you to scale your impact. 
+  - Thanks for stopping by. I am a skilled content creator, storyteller and professional nudger, passionate about behavior change. I work with change-makers and impact-driven organizations to tell your unique stories that enable you to scale your impact.
   - I do this by creating meaningful multi-media content and impactful behavior change communications strategies that resonate with your target audiences and that boost your user engagement, increase your organization visibility and position you even more as a thought leader.
   - My purpose is to help you connect the dots, identify trends, set mindful health agendas and better communicate your goals to influence the behavior change that's needed.
 
@@ -10,7 +10,7 @@ services:
   - icon: hand-holding-heart
     title: "Creative communications"
     description: "Storytelling, Visual design, Creative content/messaging, Copywriting & editing (including web copy)."
-- icon: user
+  - icon: user
     title: "User research"
     description: "Audience mapping, Trend spotting, Empathic & observational research, Behavior change audits."
   - icon: cogs
@@ -21,7 +21,7 @@ work:
   categories: [all, europe/uk, asia, usa]
   items:
     - category: europe/uk
-      image: work-example.jpg
+      image: fairphone-featured.jpg
       imageDescription: "Work example description for impaired vision people"
       title: "Fairphone"
       description: "Fairphone builds a deeper understanding between people and their products, driving conversations about what 'fair' really means. I support on-demand client copywriting and editing requests for a range of content driven pieces to help with product positioning and raising consumer awareness."
@@ -81,6 +81,11 @@ work:
       title: "Trader Joe's"
       description: "Trader Joe's is a national grocery franchise in the US, as a consumer advisor, I informed and guided consumers in healthy food options."
 
+testimonials:
+  - testimonial: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    name: "Pablo Martín"
+    company: "Political Watch"
+
 hireMe:
   message: "Ready to cut through the noise and drive up your impact?"
   email: mariebcusick@gmail.com
@@ -97,22 +102,26 @@ hireMe:
 
   <div class="intro">
 
-    <h1>Marie B Cusick</h1>
+    <h1>{{ site.title }}</h1>
+    <h3>{{ site.description }}</h3>
     <div class="slinks">
-      {% if site.facebook_username %}
-      <a href="https://www.facebook.com/{{ site.facebook_username }}" class="wow fadeInUp"><i class="fab fa-facebook-square fa-2x"></i></a>
-      {% endif %}
       {% if site.twitter_username %}
-      <a href="https://twitter.com/{{ site.twitter_username }}" class="wow fadeInUp" data-wow-delay=".1s"><i class="fab fa-twitter-square fa-2x"></i></a>
-      {% endif %}
-      {% if site.googleplus_username %}
-      <a href="https://plus.google.com/{{ site.googleplus_username }}" class="wow fadeInUp" data-wow-delay=".2s"><i class="fab fa-google-plus-square fa-2x"></i></a>
+      <a href="https://twitter.com/{{ site.twitter_username }}" class="wow fadeInUp" data-wow-delay=".1s"><i class="fab fa-twitter fa-2x"></i></a>
       {% endif %}
       {% if site.linkedin_username %}
       <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="wow fadeInUp" data-wow-delay=".3s"><i class="fab fa-linkedin fa-2x"></i></a>
       {% endif %}
+      {% if site.instagram_username %}
+      <a href="https://www.instagram.com/{{ site.instagram }}" class="wow fadeInUp" data-wow-delay=".5s"><i class="fab fa-instagram fa-2x"></i></a>
+      {% endif %}
+      {% if site.facebook_username %}
+      <a href="https://www.facebook.com/{{ site.facebook_username }}" class="wow fadeInUp"><i class="fab fa-facebook fa-2x"></i></a>
+      {% endif %}
+      {% if site.googleplus_username %}
+      <a href="https://plus.google.com/{{ site.googleplus_username }}" class="wow fadeInUp" data-wow-delay=".2s"><i class="fab fa-google-plus fa-2x"></i></a>
+      {% endif %}
       {% if site.pinterest_username %}
-      <a href="http://www.pinterest.com/{{ site.pinterest_username }}" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-pinterest-square fa-2x"></i></a>
+      <a href="http://www.pinterest.com/{{ site.pinterest_username }}" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-pinterest fa-2x"></i></a>
       {% endif %}
     </div>
 
@@ -128,7 +137,7 @@ hireMe:
 
 <!-- About start -->
 
-<section id="Hi, I'm Marie!" class="module">
+<section id="me" class="module">
 
   <div class="container">
 
@@ -147,7 +156,7 @@ hireMe:
           <div class="col-sm-12">
 
             <div class="module-header wow fadeInUp">
-              <h2 class="module-title">About me</h2>
+              <h2 class="module-title">Hi, I'm Marie!</h2>
               <div class="module-line"></div>
             </div>
 
@@ -183,11 +192,11 @@ hireMe:
 
 <!-- Services start -->
 
-<section id="Superpowers" class="module module-gray">
+<section id="superpowers" class="module module-gray">
   <div class="container">
 
     <div class="module-header wow fadeInUp">
-      <h2 class="module-title">My Services</h2>
+      <h2 class="module-title">Superpowers</h2>
       <div class="module-line"></div>
     </div>
 
@@ -217,12 +226,12 @@ hireMe:
 
 <!-- Portfolio start -->
 
-<section id="portfolio" class="module">
+<section id="works" class="module">
   <div class="container">
     <div class="row">
 
       <div class="module-header wow fadeInUp">
-        <h2 class="module-title">My works</h2>
+        <h2 class="module-title">Cool stuff I've been working on</h2>
         <div class="module-line"></div>
       </div>
 
@@ -274,12 +283,11 @@ hireMe:
 
 <!-- Testimonial start -->
 
-<!--
 <div id="testimonial" class="module module-gray text-center">
   <div class="container">
 
     <div class="module-header wow fadeInUp">
-      <h2 class="module-title">Testimony</h2>
+      <h2 class="module-title">Testimonials</h2>
       <div class="module-line"></div>
     </div>
 
@@ -292,18 +300,12 @@ hireMe:
         </div>
 
         <div class="testimonials owl-carousel wow fadeInUp">
-          <div class="single-testimonials">
-            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
-            <span>Jon Doe, Web Developer</span>
-          </div>
-          <div class="single-testimonials">
-            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
-            <span>Jon Doe, Web Developer</span>
-          </div>
-          <div class="single-testimonials">
-            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
-            <span>Jon Doe, Web Developer</span>
-          </div>
+          {% for testimonial in page.testimonials %}
+            <div class="single-testimonials">
+              <p>{{ testimonial.testimonial }}</p>
+              <span>{{ testimonial.name }}, {{ testimonial.company }}</span>
+            </div>
+          {% endfor %}
         </div>
 
       </div>
@@ -311,7 +313,6 @@ hireMe:
     </div><!-- .row -->
   </div><!-- .container -->
 </div>
--->
 
 <!-- Testimonial end -->
 

@@ -7,7 +7,6 @@
 
 # Site title
 title: "Marie B Cusick"
-title: "Content Creator & Impact Storyteller"
 
 # A description of your site for social meta tag, search engines, and feed.xml
 description: "Content Creator & Impact Storyteller"
@@ -23,12 +22,12 @@ baseurl:
 navigation:
 - text: Home
   url: /#home
-- text: about
-  url: /#about
-- text: services
-  url: /#services
+- text: me
+  url: /#me
+- text: superpowers
+  url: /#superpowers
 - text: Works
-  url: /#portfolio
+  url: /#works
 - text: Blog
   url: /#blog
 - text: Contact
@@ -52,6 +51,7 @@ author_name: "Marie B Cusick"
 # Social links in the site footer
 twitter_username: "cusick_marie"
 linkedin_username: "mariebcusick"
+instagram_username: "www"
 facebook_username:
 googleplus_username:
 pinterest_username:

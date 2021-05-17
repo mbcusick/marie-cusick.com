@@ -99,19 +99,21 @@
 
  h1, h2, h3, h4, h5, h6 {
    font: 700 40px/1.2 'Poppins', sans-serif;
-   text-transform: uppercase;
    letter-spacing: 5px;
    margin: 0;
    color: #5b5963;
  }
 
+ h1 {
+   font-weight: normal;
+ }
  h2 {
    font-size: 30px;
    margin: 0 0 30px;
  }
 
  h3 {
-   font-size: 13px;
+   font-size: 18px;
    letter-spacing: 1px;
    margin: 0 0 5px;
  }
@@ -131,6 +133,10 @@
    font-size: 11px;
    letter-spacing: 1px;
    font-weight: 400;
+ }
+
+ p {
+   font-size: 14px;
  }
 
  /*** Reset border-radius ***/
@@ -648,6 +654,11 @@
 
    .intro h1 {
      font-size: 50px;
+     text-transform: uppercase;
+   }
+
+   .intro h3 {
+     text-transform: uppercase;
    }
 
    .intro .slinks {
@@ -1194,6 +1205,11 @@ Need to override the 3.3 new styles for modern browsers & apply opacity
      margin: 0 0 15px;
      padding: 0;
    }
+
+   .iconbox-desc {
+     font-size: 14px;
+   }
+
 
    /* ---------------------------------------------- /*
     *  6. About
