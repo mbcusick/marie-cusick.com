@@ -1009,7 +1009,7 @@ Need to override the 3.3 new styles for modern browsers & apply opacity
     list-style: outside none none;
     margin-bottom: 20px;
     padding: 0 10px;
-    width: 33.333%;
+    width: 25%;
   }
   .list-items-container .list-item img {
     display: block;
