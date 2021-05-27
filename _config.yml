@@ -12,7 +12,7 @@ title: "Marie B Cusick"
 description: "Content Creator & Impact Storyteller"
 
 # Keywords tag for SEO (separated by comma)
-keywords: ""
+keywords: "content writer, storyteller, creative communications, impact communications, impact content writer"
 
 
 # The subpath of your site, e.g. /blog, for generating urls
@@ -22,9 +22,9 @@ baseurl:
 navigation:
 - text: Home
   url: /#home
-- text: me
+- text: About me
   url: /#me
-- text: superpowers
+- text: Superpowers
   url: /#superpowers
 - text: Works
   url: /#works
