@@ -1059,9 +1059,9 @@ Need to override the 3.3 new styles for modern browsers & apply opacity
   .list-items-container .caption-inner {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 20%;
     width: 100%;
-    margin-top: -20px;
+    padding: 10px;
   }
 
   .caption-inner .portfolio-item-title {
